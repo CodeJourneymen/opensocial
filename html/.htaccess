@@ -187,3 +187,9 @@ AddEncoding gzip svgz
   # Disable Proxy header, since it's an attack vector.
   RequestHeader unset Proxy
 </IfModule>
+
+# redirect for Chattlab
+Redirect 301 /Workshops https://www.chattlab.org/community-events
+Redirect 301 /workshops https://www.chattlab.org/community-events
+Redirect 301 /wiki https://wiki.chattlab.org
+Redirect 301 /blog https://blog.chattlab.org

@@ -1,0 +1,7 @@
+name: chattlab
+recipe: drupal8
+services:
+  appserver:
+    xdebug: true
+config:
+  webroot: html

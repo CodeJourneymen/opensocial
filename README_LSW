@@ -1,0 +1,12 @@
+Private files for open social
+-----------------------------
+
+Private files are inside the download at private/files - not just private
+
+Added lando specific items to settings.php for the DB and private files.
+
+Need to add drush as a composer requirement for develop - as devshop doesn't like drush9, but we want drush9 on our local version.
+
+
+
+

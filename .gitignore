@@ -6,6 +6,7 @@
 /html/sites/default/files
 /html/libraries
 vendor/
+private/
 .idea
 
 # Aegir files

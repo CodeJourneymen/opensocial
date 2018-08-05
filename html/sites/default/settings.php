@@ -797,3 +797,18 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'social';
 $config_directories['sync'] = 'sites/default/files/config_R_5in1I6KIZqItgs7cXKtkZTuADvVNLYX5Pc7gkKJY_WxPDZbGqeVLvA3B9-PuOCBPOPOb7Sow/sync';
+
+if (getenv('LANDO_INFO')) {
+  $lando_info = json_decode(getenv('LANDO_INFO'), TRUE);
+  $databases['default']['default'] = [
+    'driver' => 'mysql',
+    'database' => $lando_info['database']['creds']['database'],
+    'username' => $lando_info['database']['creds']['user'],
+    'password' => $lando_info['database']['creds']['password'],
+    'host' => $lando_info['database']['internal_connection']['host'],
+    'port' => $lando_info['database']['internal_connection']['port'],
+  ];
+
+  # Private files for opensocal (/app maps to the root of open social)
+  $settings['file_private_path'] = '/app/private/files';
+}
