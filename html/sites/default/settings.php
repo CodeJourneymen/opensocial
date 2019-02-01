@@ -251,7 +251,9 @@ $databases = array();
  *   );
  * @endcode
  */
-$config_directories = array();
+$config_directories = array(
+   CONFIG_SYNC_DIRECTORY => $app_root . '../config/sync',
+ );
 
 /**
  * Settings:
@@ -745,6 +747,10 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  */
+ $settings['trusted_host_patterns'] = array(
+   '^localhost$',
+   '^chattlab\.lndo\.site$',
+ );
 
 /**
  * The default list of directories that will be ignored by Drupal's file API.
@@ -796,7 +802,7 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'social';
-$config_directories['sync'] = 'sites/default/files/config_R_5in1I6KIZqItgs7cXKtkZTuADvVNLYX5Pc7gkKJY_WxPDZbGqeVLvA3B9-PuOCBPOPOb7Sow/sync';
+$config_directories['sync'] = $app_root . '/../config/sync';
 
 if (getenv('LANDO_INFO')) {
   $lando_info = json_decode(getenv('LANDO_INFO'), TRUE);
