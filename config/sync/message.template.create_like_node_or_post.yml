@@ -1,0 +1,39 @@
+uuid: 6d16252c-f7a6-4353-b31a-e468d51da996
+langcode: en
+status: true
+dependencies:
+  module:
+    - activity_logger
+third_party_settings:
+  activity_logger:
+    activity_bundle_entities:
+      vote-like: vote-like
+    activity_action: create_entitiy_action
+    activity_context: vote_activity_context
+    activity_destinations:
+      notifications: notifications
+      email: email
+    activity_create_direct: 1
+    activity_aggregate: 0
+    activity_entity_condition: ''
+_core:
+  default_config_hash: 7QsNSBVwL3qxy60Nh5bCmKTDdgJTYFQAD3FSDOoP2Mg
+template: create_like_node_or_post
+label: 'Create like on node or post'
+description: 'A person likes a post, topic or event created by me'
+text:
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> likes your <a href="[social_like:liked_entity]">[social_like:liked_content_type]</a></p>'
+    format: full_html
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> likes your <a href="[social_like:liked_entity]">[social_like:liked_content_type]</a></p>'
+    format: full_html
+  -
+    value: '<p><a href="[message:author:url:absolute]">[message:author:display-name]</a> likes your <a href="[social_like:liked_entity]">[social_like:liked_content_type]</a></p>'
+    format: full_html
+settings:
+  'token options':
+    clear: false
+    'token replace': true
+  purge_override: false
+  purge_methods: {  }

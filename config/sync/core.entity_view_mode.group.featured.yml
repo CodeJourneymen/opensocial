@@ -1,0 +1,12 @@
+uuid: f1617180-4dd2-4a12-af13-9449968bf485
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+_core:
+  default_config_hash: rD6DfM7j8aq3h6KH6n7EgxaOjnhlNHFQhd7_QsGL1Tw
+id: group.featured
+label: Featured
+targetEntityType: group
+cache: true

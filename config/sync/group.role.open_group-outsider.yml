@@ -1,0 +1,28 @@
+uuid: 5025e5c4-b5df-4b7b-ae37-6ed2e3ffc863
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.open_group
+_core:
+  default_config_hash: VCNzjzReKVlVPpmVrmQzMn97xLiRwIatpY_WZiuHD-k
+id: open_group-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: open_group
+permissions_ui: true
+permissions:
+  - 'join group'
+  - 'view group_node:event content'
+  - 'view group_node:event entity'
+  - 'view group_node:topic content'
+  - 'view group_node:topic entity'
+  - 'view group'
+  - 'access posts in group'
+  - 'update own group_node:topic entity'
+  - 'update own group_node:event entity'
+  - 'access comments'
+  - 'view group_membership content'
+  - 'view group stream page'

@@ -1,0 +1,31 @@
+uuid: e69347b7-5045-4ece-ad00-13bbf9e38e12
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.group_events
+  module:
+    - system
+    - views
+  theme:
+    - socialblue
+_core:
+  default_config_hash: kMyq_C7u_4IGEVq6D7EJdS_FZvB8Ed37MdJ7x8e900Y
+id: socialblue_exposedformgroup_eventspage_group_events
+theme: socialblue
+region: complementary_top
+weight: -9
+provider: null
+plugin: 'views_exposed_filter_block:group_events-page_group_events'
+settings:
+  id: 'views_exposed_filter_block:group_events-page_group_events'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: Filter
+visibility:
+  request_path:
+    id: request_path
+    pages: '/group/*/events'
+    negate: false
+    context_mapping: {  }

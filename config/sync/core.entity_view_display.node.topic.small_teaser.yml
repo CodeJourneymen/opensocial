@@ -1,0 +1,46 @@
+uuid: fb1d825d-73f1-4960-b233-5af6b0d5e908
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.small_teaser
+    - field.field.node.topic.body
+    - field.field.node.topic.field_content_visibility
+    - field.field.node.topic.field_files
+    - field.field.node.topic.field_topic_comments
+    - field.field.node.topic.field_topic_image
+    - field.field.node.topic.field_topic_type
+    - node.type.topic
+  module:
+    - user
+_core:
+  default_config_hash: skShdvdjAuwtM7EWsow0qYhs8LBUh4yqIKyy-I-jFUo
+id: node.topic.small_teaser
+targetEntityType: node
+bundle: topic
+mode: small_teaser
+content:
+  flag_follow_content:
+    weight: 10
+    region: content
+  groups_type_public_group:
+    label: above
+    weight: -5
+    region: content
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+hidden:
+  addtoany: true
+  body: true
+  field_content_visibility: true
+  field_files: true
+  field_topic_comments: true
+  field_topic_image: true
+  field_topic_type: true
+  groups: true
+  groups_type_closed_group: true
+  groups_type_open_group: true
+  like_and_dislike: true
+  links: true

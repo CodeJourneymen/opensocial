@@ -1,0 +1,24 @@
+uuid: 893ebcf7-18fc-44a9-85a1-a3393b18658a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - socialbase
+id: mainnavigation
+theme: socialbase
+region: header
+weight: 4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

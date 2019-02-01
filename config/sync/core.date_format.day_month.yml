@@ -1,0 +1,10 @@
+uuid: 7aaeec83-05fa-43ff-a2aa-e288d7df48f6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3_efTeruTseDKsX25lEwhNav7kRJcb908WGKYAifNTk
+id: day_month
+label: 'Day Month'
+locked: false
+pattern: 'j M'

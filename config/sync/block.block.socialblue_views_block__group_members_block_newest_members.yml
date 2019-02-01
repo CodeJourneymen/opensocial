@@ -1,0 +1,32 @@
+uuid: 54287cfd-6e9e-4b3c-8cb6-d86370bde0a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.group_members
+  module:
+    - system
+    - views
+  theme:
+    - socialblue
+_core:
+  default_config_hash: pDGqBKQ5EIcThRbOxWSoJcqlOh6wDrJaK-_o61A283I
+id: socialblue_views_block__group_members_block_newest_members
+theme: socialblue
+region: complementary_bottom
+weight: 5
+provider: null
+plugin: 'views_block:group_members-block_newest_members'
+settings:
+  id: 'views_block:group_members-block_newest_members'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/group/*/stream\r\n/group/*/about"
+    negate: false
+    context_mapping: {  }

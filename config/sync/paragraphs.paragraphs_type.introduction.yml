@@ -1,0 +1,11 @@
+uuid: 8f3bf42f-6544-4d59-b268-2bb3d1100ca4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qrUU6YZSwmo00j0B1J_g6rof0kJ1kfU1pPcgMll_nnU
+id: introduction
+label: Introduction
+icon_uuid: null
+description: 'Provide textual block with some link.'
+behavior_plugins: {  }

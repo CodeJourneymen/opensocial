@@ -1,0 +1,52 @@
+font_primary: '1'
+card_radius: '10'
+form_control_radius: '5'
+button_radius: '10'
+color_primary: '#29abe2'
+color_secondary: '#1f80aa'
+color_accent: '#ffc142'
+color_link: '#33b5e5'
+color_navbar_bg: '#333333'
+color_navbar_text: '#ffffff'
+'color_navbar_active_bg''': '#1f1f1f'
+'color_navbar_active_text''': '#f3f3f3'
+'color_navbar_sec_bg''': '#1f7ea7'
+'color_navbar_sec_text''': '#f9f9f9'
+_core:
+  default_config_hash: f1KNmAAfJC6_DvdfcMzTD6zDZCVwYFZ5Nhce4C7mV5M
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'https://www.chattlab.org/profiles/contrib/social/themes/socialblue/favicon.ico'
+  use_default: 1
+schemas:
+  bootstrap: 8000
+  socialbase: 8000
+  socialblue: 8000
+features:
+  comment_user_picture: true
+  comment_user_verification: false
+  favicon: 1
+  node_user_picture: true
+logo:
+  path: 'public://chattlab-logo.png'
+  url: ''
+  use_default: 0
+region_wells:
+  hidden: ''
+  header: ''
+  breadcrumb: ''
+  hero: ''
+  secondary_navigation: ''
+  content_top: ''
+  title: ''
+  content: ''
+  complementary_top: ''
+  complementary_bottom: ''
+  content_bottom: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''
+table_responsive: '-1'
+table: ''
+email_logo: {  }

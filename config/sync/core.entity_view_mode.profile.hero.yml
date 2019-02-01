@@ -1,0 +1,12 @@
+uuid: 1e176977-c833-41c5-b8bb-192bd85dc74b
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+_core:
+  default_config_hash: xdbH1V3Bt9GEL2CC6M60aOSNjKeK1jpRpWoB6_OZl80
+id: profile.hero
+label: Hero
+targetEntityType: profile
+cache: true

@@ -1,0 +1,13 @@
+uuid: 5ffcd04a-e295-47bf-8bb2-fc3125c3adc2
+langcode: en
+status: true
+dependencies: {  }
+id: contact_chatt_lab
+label: 'Contact Chatt*Lab'
+recipients:
+  - lee@codejourneymen.com
+  - jeff@chattlab.org
+reply: 'Your message to Chatt*Lab has been sent, we''ll be in touch soon.'
+weight: 0
+message: "Your message has been sent to the Chatt*Lab board members.\r\nWe'll be in touch soon."
+redirect: ''
