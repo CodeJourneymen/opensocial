@@ -1,0 +1,12 @@
+uuid: dcdfffeb-4c72-439f-ac56-5f7f40d8f202
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+_core:
+  default_config_hash: wmO6xCxLIrGhfwHdZnry41ZEiacB3O0VogCoyxIgWuI
+id: profile.search_index
+label: 'Search Index'
+targetEntityType: profile
+cache: true

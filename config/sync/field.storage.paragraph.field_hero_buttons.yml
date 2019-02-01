@@ -1,0 +1,22 @@
+uuid: 745a6ef2-d4f8-4b72-bcfe-8e3ded537ed2
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+_core:
+  default_config_hash: YnvAcBPxPzkoYgWpXjtG_bLn-5iAKhs_y4bfxhm4DL0
+id: paragraph.field_hero_buttons
+field_name: field_hero_buttons
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,33 @@
+uuid: 610a1050-b828-4c63-b837-d1c4377feccc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - shariff
+  theme:
+    - socialbase
+_core:
+  default_config_hash: fgrH4cr0m4oT_g1jDHt78bXMG95nPJmW1yAE5j8qVxE
+id: shariffsharebuttons_2
+theme: socialbase
+region: complementary_bottom
+weight: 0
+provider: null
+plugin: shariff_block
+settings:
+  id: shariff_block
+  label: 'Share this page'
+  provider: shariff
+  label_display: visible
+  shariff_default_settings: 1
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      event: event
+      page: page
+      topic: topic
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

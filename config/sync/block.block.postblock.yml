@@ -1,0 +1,28 @@
+uuid: e40be99d-9249-41c5-9139-6c2145bc6c64
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_post
+    - system
+  theme:
+    - socialbase
+_core:
+  default_config_hash: P48P5vAKh5cdHENgfiw66njirMIylYzdKUN2jOQg00o
+id: postblock
+theme: socialbase
+region: hidden
+weight: -7
+provider: null
+plugin: post_block
+settings:
+  id: post_block
+  label: 'Post block'
+  provider: social_post
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /stream
+    negate: false
+    context_mapping: {  }

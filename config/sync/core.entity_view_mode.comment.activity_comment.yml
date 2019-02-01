@@ -1,0 +1,12 @@
+uuid: dcc460ef-6c2c-41f0-87bb-24b0c4b3ff6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: J-a5w4VBp_4z7XtP70ZgqT2TMbLgNwb4X7oIkPpJSeM
+id: comment.activity_comment
+label: 'Activity comment'
+targetEntityType: comment
+cache: true

@@ -1,0 +1,31 @@
+uuid: e07cbaf8-00fa-4536-b01a-532b5881ca85
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero_call_to_action_block:1a7bedb9-84e6-4347-8a7d-8fb95e3ee888'
+  module:
+    - block_content
+    - system
+  theme:
+    - socialblue
+id: seealltheeventbriteworkshopsoneventbrite
+theme: socialblue
+region: complementary_top
+weight: -27
+provider: null
+plugin: 'block_content:1a7bedb9-84e6-4347-8a7d-8fb95e3ee888'
+settings:
+  id: 'block_content:1a7bedb9-84e6-4347-8a7d-8fb95e3ee888'
+  label: 'See all the Eventbrite workshops on Eventbrite'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /community-events
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,18 @@
+uuid: d26dbbe6-ee33-460f-94ad-b863adf21b9c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - socialbase
+id: socialbase_local_actions
+theme: socialbase
+region: complementary_top
+weight: -18
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: 5ec2ed31-3307-42f6-b993-a7c8d842a3f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - dynamic_entity_reference
+    - group
+    - node
+    - paragraphs
+    - profile
+_core:
+  default_config_hash: KKbANXhZ_2XODhSqcgsKdfPBN1s0h8ysG2xrNL1SiTs
+id: paragraph.field_featured_items
+field_name: field_featured_items
+entity_type: paragraph
+type: dynamic_entity_reference
+settings:
+  exclude_entity_types: false
+  entity_type_ids:
+    node: node
+    group: group
+    profile: profile
+module: dynamic_entity_reference
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

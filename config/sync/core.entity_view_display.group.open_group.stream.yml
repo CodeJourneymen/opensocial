@@ -1,0 +1,27 @@
+uuid: a2f78a4b-299b-4059-a8bd-dd2ed2dc3065
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.group.stream
+    - field.field.group.open_group.field_group_address
+    - field.field.group.open_group.field_group_description
+    - field.field.group.open_group.field_group_image
+    - field.field.group.open_group.field_group_location
+    - group.type.open_group
+_core:
+  default_config_hash: NUCUnBqmnB0Twyf2jAeFTOQ48-nCU9cV1ODSYEeX98g
+id: group.open_group.stream
+targetEntityType: group
+bundle: open_group
+mode: stream
+content: {  }
+hidden:
+  changed: true
+  created: true
+  field_group_address: true
+  field_group_description: true
+  field_group_image: true
+  field_group_location: true
+  label: true
+  uid: true

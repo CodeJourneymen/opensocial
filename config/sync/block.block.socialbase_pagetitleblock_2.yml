@@ -1,0 +1,26 @@
+uuid: 68bbe6db-3d66-4949-9ff8-698de98843f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_core
+    - system
+  theme:
+    - socialbase
+id: socialbase_pagetitleblock_2
+theme: socialbase
+region: hero
+weight: -20
+provider: null
+plugin: social_page_title_block
+settings:
+  id: social_page_title_block
+  label: 'Page title for enrollments'
+  provider: social_core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "*/enrollments\r\n*/managers"
+    negate: false
+    context_mapping: {  }

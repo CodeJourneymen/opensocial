@@ -5,3 +5,7 @@ services:
     xdebug: true
 config:
   webroot: html
+  php: 7.2
+  conf:
+    php: config/php.ini
+
