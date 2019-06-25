@@ -7,6 +7,11 @@ Added lando specific items to settings.php for the DB and private files.
 
 Need to add drush as a composer requirement for develop - as devshop doesn't like drush9, but we want drush9 on our local version.
 
+lando Composer update may fail with an OOM error.
+use :-
+lando php -d memory_limit=-1 /usr/local/bin/composer update
+
+
 
 
 
