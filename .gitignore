@@ -17,3 +17,4 @@ sites/*/drushrc.php
 sites/*/settings.php
 sites/*/local.settings.php
 sites/all/drush/drushrc.php
+opensocial.dev.devshop.loudbritishguy.net
